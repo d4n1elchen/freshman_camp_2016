@@ -1,0 +1,72 @@
+
+/* style sheet for 2016 fresh camp in ncku */
+
+/** debug **/
+* { border: 1px solid ; }
+
+
+/** href color **/
+a:visited, a:link { 
+	color: inherit;
+}
+
+a:hover, a:active, a.now {
+	/*** need adjust ***/
+	color: blue; 
+}
+
+
+/** navigation bar in every page **/
+
+nav {
+	display: block;
+	width: 100%;
+	padding: 1em;
+
+	position: fixed;
+	top: 0; left: 0;
+
+	/*** need adjust ***/
+	color: black; 
+	background-color: grey; 
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+}
+
+
+/** section **/
+
+html, body {
+	height: 100%;
+}
+
+
+header {
+	height: 70%;
+	text-align: center;
+	margin-top: 3em;
+}
+
+header img {
+	display: none; 
+}
+
+
+
+section {
+	height: 70%;
+	padding: 2em 20% 2em 20%;
+}
+
+section img {
+	float: right;
+	width: 40%;
+}
+
+
